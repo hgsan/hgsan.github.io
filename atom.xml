@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://hgsan.github.io/atom.xml" rel="self"/>
+  <link href="http://hgsan.github.io/"/>
+  <updated>2014-02-18T22:45:22+09:00</updated>
+  <id>http://hgsan.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[まとめておきたいこと]]></title>
+    <link href="http://hgsan.github.io/blog/2014/02/17/matometaikoto/"/>
+    <updated>2014-02-17T18:25:09+09:00</updated>
+    <id>http://hgsan.github.io/blog/2014/02/17/matometaikoto</id>
+    <content type="html"><![CDATA[<ul>
+<li>インストールの手順
+
+<ul>
+<li>GitHubPagesを作成</li>
+<li>bitbucketにリポジトリを作成
+
+<ul>
+<li>SSHのキーをサイトに登録する必要あり</li>
+</ul>
+</li>
+<li>ローカルでの作業
+
+<ul>
+<li>octopressの環境作成</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+
+<ul>
+<li>運用の手順
+
+<ul>
+<li>bitbucketからclone</li>
+<li>generateしてgitへのデプロイ
+
+<ul>
+<li>Rakefileを一部書き直す必要あり</li>
+</ul>
+</li>
+<li>bitbucketへのpush</li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+
+<h1>Octopress と GithubPages を利用することのメリット</h1>
+
+<ul>
+<li>レンタルサーバーが不要＋外部広告なし</li>
+<li>githubPagesのホスティング機能をアプリのサーバーとしても利用できる？</li>
+<li>テキストエィタで記事が書ける</li>
+<li>レイアウトはテンプレートを使えばよいので手間がかからない</li>
+<li>クラウドでソースを非公開管理できる</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Start Up]]></title>
+    <link href="http://hgsan.github.io/blog/2014/02/17/start-up/"/>
+    <updated>2014-02-17T15:43:56+09:00</updated>
+    <id>http://hgsan.github.io/blog/2014/02/17/start-up</id>
+    <content type="html"><![CDATA[<h1>インストール時のまとめ</h1>
+
+<p>・ソースはBitbucketで管理<br/>
+・ホスティングはOctpressを使ってGitHubPagesで行う</p>
+
+<p>＜ポイント＞
+ssh接続とHTTPSでパスの記述方法が異なる</p>
+
+<p>さらにSSHの場合はキーを設定しておく必要がある。</p>
+
+<p>→これがないとエラーがでる</p>
+
+<p>git add . &amp;&amp; git commit -m &ldquo;set article&rdquo; &amp;&amp; rake gen_deploy &amp;&amp; git push -u bitbucket source</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tywin Lannister Quote]]></title>
+    <link href="http://hgsan.github.io/blog/2013/06/15/tywin-lannister-quote/"/>
+    <updated>2013-06-15T09:28:00+09:00</updated>
+    <id>http://hgsan.github.io/blog/2013/06/15/tywin-lannister-quote</id>
+    <content type="html"><![CDATA[<p>A nice quote by Tywin Lannister taken from <em>A Storm of Sword</em> book.</p>
+
+<blockquote><p>The greatest fools are ofttimes more clever then the men who laugh at them.</p><footer><strong>Tywin Lannister</strong> <cite>A Storm of Swords</cite></footer></blockquote>
+
+]]></content>
+  </entry>
+  
+</feed>
